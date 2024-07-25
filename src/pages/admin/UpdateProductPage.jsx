@@ -36,7 +36,7 @@ const categoryList = [
 const UpdateProductPage = () => {
     const context = useContext(myContext);
     const { loading, setLoading, getAllProductFunction } = context;
- n
+
    
     const navigate = useNavigate();
     const { id } = useParams()
